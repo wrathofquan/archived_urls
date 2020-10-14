@@ -20,6 +20,7 @@ urls <- c("https://choosealicense.com",
           )
 
 devtools::install_github("hrbrmstr/wayback")
+
 df <- c()
 
 for (url in urls){
